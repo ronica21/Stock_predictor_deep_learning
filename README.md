@@ -25,3 +25,4 @@ This project utilizes Deep Learning models, Long-Short Term Memory (LSTM) Neural
 We have used PyTorch to build a LSTM to predict stock prices using historical closing price and trading volume and visualize both the predicted price values over time and the optimal parameters for the model.
 
 # Results
+![Result](result.png)

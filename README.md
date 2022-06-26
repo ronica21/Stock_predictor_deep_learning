@@ -17,7 +17,7 @@ This project is done as the final project for the Deep Learning Class for the Ma
 * As Data Scientists, we can leverage this data and use our skills to whip up an algorithm that can help us with this task.
 
 # Data
-We took Google stock data from 2010- 2022(April) from [Yahoo Finance](https://finance.yahoo.com/). The API returns the Closing price, Start price and the volume of stocks, traded for each day.
+We took Google stock data from 2010- 2022(April) from [Yahoo Finance](https://finance.yahoo.com/). The API returns the Closing price, Starting price and the volume of stocks, traded for each day.
 
 # Modelling
 This project utilizes Deep Learning models, Long-Short Term Memory (LSTM) Neural Network algorithm, to predict stock prices. For data with timeframes recurrent neural networks (RNNs) come in handy but recent researches have shown that LSTM, networks are the most popular and useful variants of RNNs. 

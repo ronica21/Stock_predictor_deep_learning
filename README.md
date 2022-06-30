@@ -22,7 +22,16 @@ We took Google stock data from 2010- 2022(April) from [Yahoo Finance](https://fi
 # Modelling
 This project utilizes Deep Learning models, Long-Short Term Memory (LSTM) Neural Network algorithm, to predict stock prices. For data with timeframes recurrent neural networks (RNNs) come in handy but recent researches have shown that LSTM, networks are the most popular and useful variants of RNNs. 
 
-We have used PyTorch to build a LSTM to predict stock prices using historical closing price and trading volume and visualize both the predicted price values over time and the optimal parameters for the model.
+We have used PyTorch to build a **LSTM** to predict stock prices using historical closing price and trading volume and visualize both the predicted price values over time and the optimal parameters for the model.
+
+The walkthrough of the code can be found in the **Predict_stock_price.ipynb** jupyter notebook.
 
 # Results
-![Result](result.png)
+![Result](result_plot.png)
+
+**Numer of epochs ran**: 800
+
+**MSE on train data**:  0.00013905840751249343</br>
+**MSE on val data**:  0.18504878878593445
+
+**Training time**: 300.1186912059784
